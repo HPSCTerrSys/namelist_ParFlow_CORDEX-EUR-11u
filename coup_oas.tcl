@@ -147,13 +147,13 @@ pfset GeomInput.Sea.Value 22
 #-------------------------------------------------------------------------------
 # Setup timing info
 #-------------------------------------------------------------------------------
-pfset TimingInfo.BaseUnit                0.5
+pfset TimingInfo.BaseUnit                __base_pfl__
 pfset TimingInfo.StartCount              0.0
 pfset TimingInfo.StartTime               0.0
-pfset TimingInfo.StopTime                23.5
+pfset TimingInfo.StopTime                __stop_pfl_bldsva__
 pfset TimeStep.Type                      Constant
-pfset TimeStep.Value                     0.5
-pfset TimingInfo.DumpInterval            0.5
+pfset TimeStep.Value                     __dt_pfl_bldsva__
+pfset TimingInfo.DumpInterval            __dump_pfl_interval__
 
 # Time Cycles
 #-------------------------------------------------------------------------------
