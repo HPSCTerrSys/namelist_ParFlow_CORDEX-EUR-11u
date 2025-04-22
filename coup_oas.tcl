@@ -544,7 +544,7 @@ pfset Solver.PrintLSMSink                       False
 pfset Solver.PrintEvapTransSum                  False
 pfset Solver.PrintOverlandSum                   False
 #
-pfset NetCDF.NumStepsPerFile                    1
+pfset NetCDF.NumStepsPerFile                    __pfloutmfilt__
 pfset NetCDF.WritePressure                      True
 pfset NetCDF.WriteSaturation                    True
 pfset NetCDF.WriteMannings                      True
